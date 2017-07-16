@@ -40,4 +40,3 @@ print(student_names[1:-1])
 for name in student_names:
     print("Student name is {0}".format(name))
 
-
