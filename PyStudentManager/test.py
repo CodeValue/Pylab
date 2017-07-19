@@ -31,19 +31,13 @@ def read_file():
     except Exception:
         print("Could not read file.")
 
-
-
-
-
-
-
-student_list = get_student_titlecase()
+read_file()
+print_students_titlecase()
 
 student_name = input("Enter student name:") 
 student_id = input("Enter student ID:")
 
 add_student(student_name, student_id)
-print_students_titlecase()
-
+save_file(student_name)
 
 
