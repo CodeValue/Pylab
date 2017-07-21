@@ -3,7 +3,7 @@ students = []
 def get_student_titlecase():
     student_titlecase = []
     for student in students:
-        student_titlecase = student["name"].title()
+        student_titlecase.append(student["name"].title())
     return student_titlecase
 
 def print_students_titlecase():
@@ -16,7 +16,7 @@ def add_student(name, student_id=332):
 
 def save_file(student):
     try:
-        f = open("student.txt", "a")
+        f = open("students.txt", "a")
         f.write(student + "\n")
         f.close()
     except Exception:
