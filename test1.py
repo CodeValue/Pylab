@@ -1,3 +1,35 @@
+import random
+
+
+print("Hello World")
+
+# BAD:                          |
+counter = 0
+while counter < 5:
+    print(counter)
+    counter += 1
+
+# GOOD:                         |
+for i in range(5):
+    print(i)
+
+
+
+
+
+
+items = ["Go", "Go", "Power", "Rangers", "Yeh!"]
+selected_item = random.choice(items)
+
+# BAD:
+def do_complicated_thing(*args):
+    x, y = args
+    return dict(**locals)
+
+# GOOD:
+def do_the_same_but_simpler(x, y):
+    return {'x' : x, 'y' : y}
+
 
 NAME = "PythonBo"
 MACHINE = NAME + "HAL"
