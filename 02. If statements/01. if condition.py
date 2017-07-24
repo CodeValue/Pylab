@@ -148,6 +148,22 @@ if we_learning_python and we_enjoy:
 
 
 
+ 
+
+
+
+# Ternary If Statement
+#----------------------
+
+x = 10
+y = 20
+
+print("x is bigger") if x > y else print("y is bigger")
+
+
+
+
+
 
 
 
