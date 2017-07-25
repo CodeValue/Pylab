@@ -27,12 +27,42 @@ print(lecturers[2])
 
 
 
+# For Loops
+#---------------
 
-# Python for loop act like foeach in C# 
+lecturers = ["Ori", "Haim", "Omer", "Maor", "Hagai"]
+
+# Python for loop act like foeach in C#
+ 
 for lecturer in lecturers:
     print(lecturer)
 
-# While loops
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# While Loops
+#---------------
+
+
+
 i = 0
 while i < 10:
     print(i)
@@ -43,11 +73,6 @@ while i < 10:
 
 
 
-# Exercise #1:
-# 
-# 1. Create a list of all squares from 1 to 100.
-# 2. Print the list
-#
 
 
 
@@ -56,39 +81,6 @@ while i < 10:
 
 
 
-
-
-
-
-
-
-
-
-
-    
-
- 
-
-
-
-
-# Solution:
-
-numbers = []
-x = 1
-while x <= 100:
-    numbers.append(x)
-    x += 1
-
-for i in numbers:
-    print(i**2)
-
-
-
-
-# Preferred solution
-for num in range(1,100):
-    print(num**2)
 
 
 
