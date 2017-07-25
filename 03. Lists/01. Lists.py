@@ -59,13 +59,19 @@ print(lecturers)
 
 
 # Add item 
-lecturers.append("Ido")               # will add Ido to the end of the list
+lecturers.append("Ido")               # New item will be added to the end of the list
 print(lecturers)
 
 
 # Remove item
-lecturers.remove("Maor")              # will remove Maor from the list
+lecturers.remove("Maor")              # Remove the first  first matching value from the list
 print(lecturers)
+
+
+# Delete an item
+del (lecturers[3])                    # Delete an item in specific index
+print(lecturers)                       
+
 
 # Check if an item exist
 if "Ofri" in lecturers:
