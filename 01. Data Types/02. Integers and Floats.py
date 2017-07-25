@@ -12,12 +12,11 @@ y = 3.6
 dec = -17.08
 e = 0.027
 
-
-
 # Addition and subtraction
 
 sum1 = x + y           # The interpreter will do the conversion seamlessly
 result = dec - 1 
+
 
 
 

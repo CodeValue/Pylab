@@ -10,7 +10,23 @@ print(lecturers[2])
 #
 # ...
 # 
-# this method does not scale...
+# this method doesn't scale...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Python for loop act like foeach in C# 
 for lecturer in lecturers:

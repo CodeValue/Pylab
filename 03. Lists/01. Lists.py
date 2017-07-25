@@ -68,8 +68,8 @@ lecturers.remove("Maor")              # will remove Maor from the list
 print(lecturers)
 
 # Check if an item exist
-if "Esti" in lecturers:
-    print("Esti is a lecturer")      # will not be executed
+if "Ofri" in lecturers:
+    print("Ofri is a lecturer")      # will not be executed
 
 
 # List size

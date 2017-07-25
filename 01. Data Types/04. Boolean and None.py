@@ -1,6 +1,6 @@
 
 
-#  Booleans are variables with the values of True or False
+# Booleans are variables with the values of True or False
 
 # Define a Boolean
 #-------------------
