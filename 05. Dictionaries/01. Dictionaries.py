@@ -5,6 +5,32 @@
 
 # Define a dictionary
 
+lecturer = { "name": "Haim", "lecturer_id": 11, "courses": "Python" }
+
+if lecturer["name"] == "Haim":
+    print("You can ask me question about Python")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Useful methods
+#-----------------
+
 devops_lecturers = [
     { "name": "Ori", "lecturer_id": 10, "courses": "Linux Basics" },
     { "name": "Haim", "lecturer_id": 11, "courses": "Python" },
@@ -13,12 +39,29 @@ devops_lecturers = [
     { "name": "Hagai", "lecturer_id": 14, "courses": "Kubernetes" },
 ]
 
-for lecturer in devops_lecturers:
-    if lecturer["name"] == "Ori":
-        print("You can ask a question about Linux!")
-    else:
-        if lecturer["courses"] == "CI\CD": 
-            print("You can ask a question about CI\CD!")
+
+# Get a specific item 
+haim = devops_lecturers[1]
+
+# Adding a new key-pair 
+haim["surname"] = "Kabesa"
+
+# Returns a list of all keys
+keys = haim.keys()
+
+# Returns a list of all values
+values = haim.values()
+
+# Add new item to the list of dictionaries
+devops_lecturers.append({ "name": "Ido", "lecturer_id": 15, "courses": ""})
+
+# Editing the value of particular 
+haim["name"] == "Abu Python"
+
+# Delete a key pair 
+del haim["name"]
+
+print(devops_lecturers)
 
 
 
@@ -80,35 +123,3 @@ for lecturer in devops_lecturers:
 
 
 
-
-# Useful methods
-#-----------------
-
-devops_lecturers = [
-    { "name": "Ori", "lecturer_id": 10, "courses": "Linux Basics" },
-    { "name": "Haim", "lecturer_id": 11, "courses": "Python" },
-    { "name": "Omer", "lecturer_id": 12, "courses": "Computer Networking" },
-    { "name": "Maor", "lecturer_id": 13, "courses": "CI\CD"},
-    { "name": "Hagai", "lecturer_id": 14, "courses": "Kubernetes" },
-]
-
-
-# Get a specific item 
-
-haim = devops_lecturers[1]
-
-# Returns a list of all keys
-keys = haim.keys()
-
-# Returns a list of all values
-values = haim.values()
-
-# Add new item to the list of dictionaries
-devops_lecturers.append({ "name": "Ido", "lecturer_id": 15, "courses": ""})
-
-# Editing particular key in specific item
-haim["name"] == "Haim Kabesa"
-
-del haim["name"]
-
-print(devops_lecturers)
