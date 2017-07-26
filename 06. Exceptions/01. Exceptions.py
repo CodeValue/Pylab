@@ -52,7 +52,7 @@ except TypeError as error:
 print("This line code is reachable")
 
 
-# Exception object - bad idea most of the times.
+# Exception object - it's a bad idea most of the times (explicity is better than implicity).
 # Use the "as" keyword to get the real exception message.
 # Get the Line number for debugging purposes
 
