@@ -210,4 +210,5 @@ print_args("Haim", my_age=34, where_i_live="Israel", what_i_like="Python & Beer"
 # 2. The user inputs will be preserved until the user answer "No" to the question "Do you want to proceed?".
 #   2.1 The user can respond to this question with "Yes" or "No" only.  
 # 3. In case that the response was "No", the program will print all the lecturers' details that were entered by that time.
-#   3.1 When printing the name of the lecturer, the first character in the lecturer's name should be in uppercase.
+#   3.1 Printing format will be - Name: <NAME> ID: <ID>
+#   3.2 When printing the name of the lecturer, the first character in the lecturer's name should be in uppercase.
