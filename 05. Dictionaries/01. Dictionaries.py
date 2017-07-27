@@ -56,7 +56,8 @@ values = haim.values()
 devops_lecturers.append({ "name": "Ido", "lecturer_id": 15, "courses": ""})
 
 # Editing the value of particular 
-haim["name"] == "Abu Python"
+if haim["name"] == "Cool Python":
+    print("will not execute!")
 
 # Delete a key pair 
 del haim["name"]

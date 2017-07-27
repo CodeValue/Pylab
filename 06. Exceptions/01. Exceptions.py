@@ -4,7 +4,7 @@
  
 lecturer =  { "name": "Ori", "lecturer_id": 10, "courses": "Linux Basics" }
 
-#surname = lecturer["surname"]                  # This code will throw an KeyError exception
+surname = lecturer["surname"]                  # This code will throw an KeyError exception
 
 
  # Let's handle this exception properly
@@ -47,7 +47,7 @@ try:
 except KeyError:
     print("Erro finding surname")
 except TypeError as error:
-    print("Cannot adding string to an integer.")
+    print(error, "Cannot adding string to an integer.")
 
 print("This line code is reachable")
 

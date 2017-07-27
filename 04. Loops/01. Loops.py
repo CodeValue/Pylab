@@ -89,10 +89,17 @@ prime_minister = "Bibi"
 # while prime_minister == "Bibi":
 #     print("Nope. This loop will never end")
 
-num = 5
+
+
+
+
+
 
 
 # Example #2
+
+
+# num = 5
 
 # while True:
 #     if num == 10:

@@ -267,7 +267,7 @@ doubled_odds = []
 doubled_odds = [n * 2]
 
 # 3. Copy the for loop line, excluding the final : (line 251)
-#doubled_odds = [n * 2 for n in numbers]
+doubled_odds = [n * 2 for n in numbers]
 
 # 4. Copy the if statement line, also without the : (line 252) 
 doubled_odds = [n * 2 for n in numbers if n % 2 == 1]
@@ -292,7 +292,7 @@ doubled_odds = [n * 2 for n in numbers if n % 2 == 1]
 
 
 
-
+doubled_odds
 
 
 

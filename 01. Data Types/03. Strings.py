@@ -52,7 +52,7 @@ if "123".isdigit:                                               # Check if all c
 # format and splits
 #------------------
 
-lecturers = "Ori, Haim, Hagai, Maor, Omer".split(",")           # Return a list of the elements splited by 
+lecturers = " Ori, Haim, Hagai, Maor, Omer".split(",")           # Return a list of the elements splited by 
 linux_course_lecturer = lecturers[0]
 python_course_lecturer = lecturers[1]
 networing_course_lecturer = lecturers[4]                           
@@ -61,7 +61,7 @@ print(
     """
     Course                  Lecturer
     ------                  --------     
-    Linux Basics             {0}
+    Linux Basics            {0}
     Python programming      {1}
     Computers Networking    {2}
     """.format(linux_course_lecturer ,python_course_lecturer, networing_course_lecturer))        
@@ -79,11 +79,11 @@ print(
 #  String interpolation      
 #----------------------
 
-# print(
-#     f"""
-#     Course                  Lecturer
-#     ------                  --------     
-#     Linux Basics             {linux_course_lecturer}
-#     Python programming      {python_course_lecturer}
-#     Computers Networking    {networing_course_lecturer}
-#     """)
+print(
+    f"""
+    Course                  Lecturer
+    ------                  --------     
+    Linux Basics            {linux_course_lecturer}
+    Python programming      {python_course_lecturer}
+    Computers Networking    {networing_course_lecturer}
+    """)
