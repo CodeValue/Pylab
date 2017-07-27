@@ -201,14 +201,13 @@ print_args("Haim", my_age=34, where_i_live="Israel", what_i_like="Python & Beer"
 
 
 
-
-
+ 
 # Exercise #3:
-# 
-# Create a program that addresses the following requirements: 
-# 1. The user will be asked to enter a "lecturer name" and "lecturer id".
-# 2. Those inputs will be preserved until the user answer "no" to the "Do you want to proceed?" question.
-#   2.1 The user can answer to the question "Do you want to proceed?" with "Yes" or "No" only. 
-# 3. Before the program exit, the program will print all the lecturers details that were entered by the user
-#   3.1 The name of the lecturer should be capitlized in its first letter no matter what the user use when type the name
-
+# The purpose of this exercise is to examine the knowledge we've learned so far by using Lists, Loops and the Data Types in Python.  
+#
+# Create a program that addresses the following requirements:
+# 1. The user will be asked to enter a "Lecturer Name" and a "Lecturer ID".
+# 2. The user inputs will be preserved until the user answer "No" to the question "Do you want to proceed?".
+#   2.1 The user can respond to this question with "Yes" or "No" only.  
+# 3. In case that the response was "No", the program will print all the lecturers' details that were entered by that time.
+#   3.1 When printing the name of the lecturer, the first character in the lecturer's name should be in uppercase.
