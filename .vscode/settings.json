@@ -1,5 +1,5 @@
 {
     "python.pythonPath": "/usr/local/bin/python3.6",
     "workbench.colorTheme": "Default Dark+",
-      "python.linting.pylintEnabled": false
+      "python.linting.pylintEnabled": true
 }
